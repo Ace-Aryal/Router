@@ -47,7 +47,8 @@ const router = createBrowserRouter(
      <Route path="/github" element= {<Github/>} />
 
     </Route>
-
+ // user/:userId -> after tge colon the path can be caputured with useParams hook and 
+ //used to get data from url . 
   )
 )
 

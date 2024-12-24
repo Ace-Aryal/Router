@@ -64,9 +64,9 @@ export default function Header() {
                   Contact
                 </NavLink>
               </li>
-              <li>
+              <li> 
                 <NavLink 
-                to="/github"
+                to="/github" // corresponds to tge path in the main.jsx
                 // changing classes dynamically for tailwind
                   className={({ isActive }) => 
                     `block py-2 pr-4 pl-3 duration-200 ${

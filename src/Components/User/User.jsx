@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
+//to capture :userId using useParams
  export default  function User() {
     const {userId} = useParams()
 
