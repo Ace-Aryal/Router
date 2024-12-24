@@ -7,11 +7,12 @@ import Footer from './Components/Footer/Footer'
 import { Outlet } from 'react-router-dom'
 function Root() {
   const [count, setCount] = useState(0)
+  // <outlet > : given by react router and is used to contain our componets 
 
   return (
     <>
       <Header></Header>
-      <Outlet></Outlet> // given by react router and is used to contain our componets 
+      <Outlet></Outlet>    
       <Footer></Footer>
     </>
   )
